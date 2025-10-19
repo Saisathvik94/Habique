@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+
+html,body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#root{
+  width: 100%;
+  overflow-x: none;          /* Allow horizontal scroll */
+  scrollbar-width: none;     /* Firefox */
+}
+#root::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}
