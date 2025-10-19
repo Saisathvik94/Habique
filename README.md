@@ -56,6 +56,7 @@ cd frontend
 npm run dev
 ```
 The frontend will be available at http://localhost:5173
+
 6. **Start backend server:**
 ```bash
 cd backend
